@@ -2,14 +2,14 @@ using WFA221215.Properties;
 
 namespace WFA221215
 {
-    public partial class Form1 : Form
+    public partial class FrmMain : Form
     {
         int shotCount = 0;
         static Random rnd = new();
         List<PictureBox> snowflakes = new();
         bool isTmrRunning = false;
 
-        public Form1()
+        public FrmMain()
         {
             InitializeComponent();
             tmr.Tick += OnTick;
@@ -83,7 +83,7 @@ namespace WFA221215
 
             (sender as PictureBox).Image = Resources.blood;
             shotCount++;
-            lblShotCount.Text = $"No#sf: {shotCount}";
+            lblShotCount.Text = $"killed snowflake: {shotCount}";
 
             if (shotCount == 100)
             {

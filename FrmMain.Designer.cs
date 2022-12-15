@@ -1,6 +1,6 @@
 ﻿namespace WFA221215
 {
-    partial class Form1
+    partial class FrmMain
     {
         /// <summary>
         ///  Required designer variable.
@@ -46,18 +46,18 @@
             this.btnStart.Text = "Let it snow!";
             this.btnStart.UseVisualStyleBackColor = false;
             // 
-            // lblNOdf
+            // lblShotCount
             // 
             this.lblShotCount.Font = new System.Drawing.Font("Segoe UI", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.lblShotCount.ForeColor = System.Drawing.Color.DeepSkyBlue;
-            this.lblShotCount.Location = new System.Drawing.Point(907, 12);
-            this.lblShotCount.Name = "lblNOdf";
-            this.lblShotCount.Size = new System.Drawing.Size(247, 76);
+            this.lblShotCount.Location = new System.Drawing.Point(763, 12);
+            this.lblShotCount.Name = "lblShotCount";
+            this.lblShotCount.Size = new System.Drawing.Size(391, 76);
             this.lblShotCount.TabIndex = 1;
-            this.lblShotCount.Text = "No#sf: 0";
+            this.lblShotCount.Text = "killed snowflake: 0";
             this.lblShotCount.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // Form1
+            // FrmMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 21F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -66,8 +66,8 @@
             this.Controls.Add(this.btnStart);
             this.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.Margin = new System.Windows.Forms.Padding(4);
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.Name = "FrmMain";
+            this.Text = "JZ xsmash!";
             this.ResumeLayout(false);
 
         }
