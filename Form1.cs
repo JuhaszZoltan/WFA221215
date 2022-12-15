@@ -79,6 +79,8 @@ namespace WFA221215
 
         private void OnSnowflakeClick(object? sender, EventArgs e)
         {
+            snowflakes.Remove(sender as PictureBox);
+
             (sender as PictureBox).Image = Resources.blood;
             shotCount++;
             lblShotCount.Text = $"No#sf: {shotCount}";
